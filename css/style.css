@@ -1,0 +1,104 @@
+body{
+    font-family: 'Bitter', serif;
+}
+.header {
+    background:#C6C6C6;
+    border-bottom:2px solid #979797;
+    height:50px;
+    line-height:50px;
+}
+.header .logo{
+    display:inline-block;
+    height:100%;
+    text-decoration:none;
+    width:100px;
+    text-align:center;
+    color:#000;
+}
+.header .nav li a{
+    color:#000;
+}
+.header .logo:hover {
+    background:#fff;
+    border-radius: 2px;
+}
+section {
+    height:800px;
+}
+.home {
+    background: url("https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    color:#fff;
+}
+.home h1 {
+    font-size:60px;
+    font-weight:bold;
+    margin-top:200px;
+}
+.home .btn {
+
+}
+.about {
+    background: url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top:100px;
+    color:#000;
+}
+.about h1{
+    font-size:40px;
+}
+.about p {
+    font-size:20px;
+}
+.about .img-circle {
+    width:300px;
+    height:300px;
+    margin-top:80px;
+}
+.portfolio {
+    background: url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+.portfolio .project {
+    position:relative;
+}
+.portfolio .project-hover {
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.3);
+    border-radius:5px;
+    display:none;
+    pointer-events:none;
+
+}
+.portfolio .project:hover .project-hover{
+    display:block;
+}
+.portfolio .project-hover .hover-img {
+    margin-top:100px;
+}
+.contact {
+    background: url('https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top:100px;
+}
+.contact .intro-social-buttons li {
+    width:100px;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding:20px 0 20px 50px;
+    background:#C6C6C6;
+}
+footer .copy-right {
+    font-size:8px;
+}
